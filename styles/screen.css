@@ -426,108 +426,40 @@ th {
   padding: 0;
 }
 
+@import 'https://fonts.googleapis.com/css?family=Roboto:400,900';
 @font-face {
-  font-family: 'Droid Serif';
+  font-family: 'Inconsolata';
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/droidserif/400.woff2") format('woff2'), url("../fonts/droidserif/400.woff") format('woff');
+  src: url("../fonts/inconsolata/400.woff2") format('woff2'), url("../fonts/inconsolata/400.woff") format('woff');
 }
 @font-face {
-  font-family: 'Droid Serif';
+  font-family: 'Inconsolata';
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/droidserif/700.woff2") format('woff2'), url("../fonts/droidserif/700.woff") format('woff');
+  src: url("../fonts/inconsolata/700.woff2") format('woff2'), url("../fonts/inconsolata/700.woff") format('woff');
 }
-@font-face {
-  font-family: 'Droid Serif';
-  font-style: italic;
-  font-weight: 400;
-  src: url("../fonts/droidserif/400i.woff2") format('woff2'), url("../fonts/droidserif/400i.woff") format('woff');
-}
-@font-face {
-  font-family: 'Droid Serif';
-  font-style: italic;
-  font-weight: 700;
-  src: url("../fonts/droidserif/700i.woff2") format('woff2'), url("../fonts/droidserif/700i.woff") format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: url("../fonts/opensans/300.woff2") format('woff2'), url("../fonts/opensans/300.woff") format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/opensans/400.woff2") format('woff2'), url("../fonts/opensans/400.woff") format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 600;
-  src: url("../fonts/opensans/600.woff2") format('woff2'), url("../fonts/opensans/600.woff") format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/opensans/700.woff2") format('woff2'), url("../fonts/opensans/700.woff") format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 800;
-  src: url("../fonts/opensans/800.woff2") format('woff2'), url("../fonts/opensans/800.woff") format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 300;
-  src: url("../fonts/opensans/300i.woff2") format('woff2'), url("../fonts/opensans/300i.woff") format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 400;
-  src: url("../fonts/opensans/400i.woff2") format('woff2'), url("../fonts/opensans/400i.woff") format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 600;
-  src: url("../fonts/opensans/600i.woff2") format('woff2'), url("../fonts/opensans/600i.woff") format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 700;
-  src: url("../fonts/opensans/700i.woff2") format('woff2'), url("../fonts/opensans/700i.woff") format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 800;
-  src: url("../fonts/opensans/800i.woff2") format('woff2'), url("../fonts/opensans/800i.woff") format('woff');
-}
-@font-face {
-  font-family: 'Fira Mono';
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/fira/400.woff2") format('woff2'), url("../fonts/fira/400.woff") format('woff');
-}
-@font-face {
-  font-family: 'Fira Mono';
-  font-style: normal;
-  font-weight: 500;
-  src: url("../fonts/fira/500.woff2") format('woff2'), url("../fonts/fira/500.woff") format('woff');
-}
-@font-face {
-  font-family: 'Fira Mono';
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/fira/700.woff2") format('woff2'), url("../fonts/fira/700.woff") format('woff');
-}
+/*
+webfont('Droid Serif', 'droidserif/400', 400, normal)
+webfont('Droid Serif', 'droidserif/700', 700, normal)
+webfont('Droid Serif', 'droidserif/400i', 400, italic)
+webfont('Droid Serif', 'droidserif/700i', 700, italic)
+
+webfont('Open Sans', 'opensans/300', 300, normal)
+webfont('Open Sans', 'opensans/400', 400, normal)
+webfont('Open Sans', 'opensans/600', 600, normal)
+webfont('Open Sans', 'opensans/700', 700, normal)
+webfont('Open Sans', 'opensans/800', 800, normal)
+webfont('Open Sans', 'opensans/300i', 300, italic)
+webfont('Open Sans', 'opensans/400i', 400, italic)
+webfont('Open Sans', 'opensans/600i', 600, italic)
+webfont('Open Sans', 'opensans/700i', 700, italic)
+webfont('Open Sans', 'opensans/800i', 800, italic)
+
+webfont('Fira Mono', 'fira/400', 400, normal)
+webfont('Fira Mono', 'fira/500', 500, normal)
+webfont('Fira Mono', 'fira/700', 700, normal)
+*/
 html {
   font-size: 62.5%;
 }
@@ -541,7 +473,7 @@ body {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  font-family: 'Droid Serif', Georgia, serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.62rem;
   font-weight: 400;
   line-height: 1.6em;
@@ -601,8 +533,10 @@ header a:hover {
   text-decoration: underline;
 }
 header h1 {
+  line-height: 4rem;
+  font-size: 2.5rem;
   color: #1d9cf7;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 4.5rem;
   font-weight: 400;
   letter-spacing: -1px;
@@ -619,7 +553,7 @@ header img {
 }
 header p {
   color: #fafafa;
-  font-family: 'Droid Serif', Georgia, serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.62rem;
   font-weight: 400;
   letter-spacing: 0;
@@ -660,8 +594,11 @@ header .space {
   width: 400%;
   z-index: 1;
 }
+header p.author-tagline {
+  padding-top: 2.5rem;
+}
 main {
-  background: #f8f8f8;
+  background: #fafafa;
   -webkit-box-flex: 2;
   -moz-box-flex: 2;
   -o-box-flex: 2;
@@ -700,7 +637,7 @@ main a.article:hover h2 {
 }
 main .page-title {
   color: #a4a4a4;
-  font-family: 'Droid Serif', Georgia, serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.62rem;
   font-style: italic;
   font-weight: 400;
@@ -711,7 +648,7 @@ main .page-title {
 main .post-meta {
   color: #a4a4a4;
   display: inline-block;
-  font-family: 'Droid Serif', Georgia, serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1.62rem;
   margin: 0;
@@ -720,7 +657,6 @@ main article.item {
   border-bottom: 1px solid rgba(0,0,0,0.15);
   color: #141414;
   padding: 40px;
-  text-align: center;
 }
 main article.item h2 {
   break-word: normal;
@@ -733,21 +669,35 @@ main article.item p.post-excerpt {
   line-height: 1.6em;
   margin: 16px 0 0 0;
 }
+main article.item .post-dev-meta {
+  line-height: 0.5rem;
+}
+main article.item .post-dev-meta span.meta-type {
+  font-size: 1.5rem;
+}
+main article.item .post-dev-meta span.meta-data {
+  padding: 0.5rem;
+  background-color: #f1f1f1;
+  -webkit-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  font-family: 'Inconsolata', monospace, serif;
+  font-size: 1.5rem;
+}
 main article.item:after {
   display: block;
   content: '';
   width: 7px;
   height: 7px;
-  border: 1px solid #dadada 1px solid;
+  border: 1px solid #dcdcdc 1px solid;
   position: relative;
   top: 45px;
   left: 50%;
   margin-left: -5px;
-  background: #d3d3d3;
+  background: #d4d4d4;
   -webkit-border-radius: 100%;
   border-radius: 100%;
-  -webkit-box-shadow: #f8f8f8 0 0 0 5px;
-  box-shadow: #f8f8f8 0 0 0 5px;
+  -webkit-box-shadow: #fafafa 0 0 0 5px;
+  box-shadow: #fafafa 0 0 0 5px;
 }
 main article.full {
   padding-bottom: 20px;
@@ -885,7 +835,7 @@ main article.full form .form-column button {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   color: #fafafa;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   letter-spacing: 1px;
   margin: 0.5em 0.5em 0.5em 0;
   padding: 0.1em 0.6em;
@@ -928,7 +878,7 @@ main article.full .small-button {
   -webkit-box-shadow: 0 2px #0777c7;
   box-shadow: 0 2px #0777c7;
   color: #fafafa;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.4rem;
   font-weight: 700;
   line-height: 1.6;
@@ -961,7 +911,7 @@ main article.full .simple:hover {
 main article.full .big-button {
   background: #1d9cf7;
   color: #fafafa;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   -webkit-box-shadow: 0 6px #0777c7;
   box-shadow: 0 6px #0777c7;
   -webkit-transition: none;
@@ -999,9 +949,9 @@ main article.full .big-button:before {
 main article.full .round-button {
   -webkit-border-radius: 30px;
   border-radius: 30px;
-  border: 3px solid #dfdfdf;
-  color: #dfdfdf;
-  font-family: 'Open Sans', sans-serif;
+  border: 3px solid #e1e1e1;
+  color: #e1e1e1;
+  font-family: 'Roboto', sans-serif;
   padding: 10px 30px;
   overflow: hidden;
   margin: 15px 30px;
@@ -1022,7 +972,7 @@ main article.full .punch-button {
   -webkit-box-shadow: inset 0 1px 10px 1px #55b5f9, 0 1px 0 #022035, 0 6px 0 #033050, 0 8px 4px 1px #737373;
   box-shadow: inset 0 1px 10px 1px #55b5f9, 0 1px 0 #022035, 0 6px 0 #033050, 0 8px 4px 1px #737373;
   color: #fafafa;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.8rem;
   font-weight: 700;
   line-height: 1.4;
@@ -1049,7 +999,7 @@ main article.full .punch-button hr:after {
 main article.full .punch-button span {
   display: block;
   color: #033050;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.4rem;
   font-style: italic;
   letter-spacing: 1px;
@@ -1078,19 +1028,19 @@ main footer {
   text-align: center;
   position: relative;
   padding: 4rem 0;
-  border: 1px solid #d3d3d3 1px solid;
+  border: 1px solid #d4d4d4 1px solid;
   font-size: 1.3rem;
   line-height: 2.1em;
   color: #8a8a8a;
-  background: #ececec;
+  background: #ededed;
 }
 main footer :not(main) > a {
   color: #434343;
   font-weight: 700;
   text-decoration: none;
 }
-main footer .pubkey {
-  font-family: 'Fira Mono', monospace, sans-serif;
+main footer .pubemail {
+  font-family: 'Inconsolata', monospace, serif;
   font-weight: 500;
   color: #737373;
 }
@@ -1100,27 +1050,26 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   line-height: 1;
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 0px f;
   text-rendering: optimizeLegibility;
 }
 h1 {
   font-size: 4.5rem;
   letter-spacing: -2px;
-  line-height: 1.2em;
+  line-height: 6rem;
   text-indent: -3px;
 }
 h2 {
-  font-size: 3.9rem;
-  letter-spacing: -1px;
-  line-height: 1.2em;
-  text-indent: -2px;
+  font-size: 3rem;
+  line-height: 1.5em;
 }
 h3 {
-  font-size: 3.3rem;
+  line-height: 4rem;
+  font-size: 2rem;
 }
 h4 {
   font-size: 2.8rem;
@@ -1147,7 +1096,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: #d3d3d3 1px solid;
+  border-top: #d4d4d4 1px solid;
   margin: 40px 0;
   padding: 0;
 }
@@ -1156,16 +1105,16 @@ hr:after {
   content: '';
   width: 7px;
   height: 7px;
-  border: 1px solid #dadada 1px solid;
+  border: 1px solid #dcdcdc 1px solid;
   position: relative;
   top: -5px;
   left: 50%;
   margin-left: -5px;
-  background: #d3d3d3;
+  background: #d4d4d4;
   -webkit-border-radius: 100%;
   border-radius: 100%;
-  -webkit-box-shadow: #f8f8f8 0 0 0 5px;
-  box-shadow: #f8f8f8 0 0 0 5px;
+  -webkit-box-shadow: #fafafa 0 0 0 5px;
+  box-shadow: #fafafa 0 0 0 5px;
 }
 p,
 ul,
@@ -1202,7 +1151,7 @@ tt {
   -webkit-border-radius: 0.2em;
   border-radius: 0.2em;
   color: #fafafa;
-  font-family: 'Fira Mono', monospace, sans-serif;
+  font-family: 'Inconsolata', monospace, serif;
   font-size: 0.85em;
   font-weight: 400;
   padding: 1px 3px;
@@ -1217,8 +1166,8 @@ pre {
   -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
   color: #fafafa;
-  font-family: 'Fira Mono', monospace, sans-serif;
-  font-size: 0.9em;
+  font-family: 'Inconsolata', monospace, serif;
+  font-size: 1.5rem;
   font-weight: 400;
   margin: 1.6em 0;
   overflow: auto;
@@ -1244,7 +1193,7 @@ kbd {
   box-shadow: 0 1px 0 rgba(0,0,0,0.2), 0 0 0 2px #fafafa inset;
   color: #666;
   display: inline-block;
-  font-family: 'Droid Serif', Georgia, serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 0.9em;
   margin-bottom: 0.4em;
   padding: 0 5px;
@@ -1329,6 +1278,11 @@ figure.highlight pre {
   -webkit-border-radius: 0;
   border-radius: 0;
   margin: 0;
+}
+@media (max-width: 720px) {
+  body header {
+    padding-top: 5rem;
+  }
 }
 @media (min-width: 720px) {
   body {
