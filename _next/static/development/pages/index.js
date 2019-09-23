@@ -1,5 +1,106 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
+/***/ "./components/certificate_list/CertificateList.tsx":
+/*!*********************************************************!*\
+  !*** ./components/certificate_list/CertificateList.tsx ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/vedpetkar/src/github.com/vpetkar/vpetkar.github.io-src/components/certificate_list/CertificateList.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1__["createElement"];
+
+
+var CERTIFICATES = [{
+  title: 'HTML5',
+  completionDate: new Date('2019-09-22'),
+  imageUrl: '/static/cert-1014-15680677.jpg',
+  pdfUrl: '/static/cert-1014-15680677.pdf'
+}];
+
+function CertificateList(props) {
+  var certificateListItems = CERTIFICATES.map(function (certificate) {
+    return __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_0__["Card"], {
+      style: {
+        width: '18rem'
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24
+      },
+      __self: this
+    }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_0__["Card"].Img, {
+      variant: "top",
+      src: certificate.imageUrl,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25
+      },
+      __self: this
+    }), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_0__["Card"].Body, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26
+      },
+      __self: this
+    }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_0__["Card"].Title, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27
+      },
+      __self: this
+    }, certificate.title), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_0__["Card"].Subtitle, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28
+      },
+      __self: this
+    }, "Completed on ", certificate.completionDate.toLocaleDateString()), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_0__["Card"].Link, {
+      href: certificate.pdfUrl,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 29
+      },
+      __self: this
+    }, "Download PDF")));
+  });
+  return __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_0__["Container"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_0__["Row"], {
+    className: "justify-content-md-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, __jsx("h2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, "Sololearn Certificates"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_0__["CardColumns"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, certificateListItems), ";"));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (CertificateList);
+
+/***/ }),
+
 /***/ "./components/greeter/Greeter.tsx":
 /*!****************************************!*\
   !*** ./components/greeter/Greeter.tsx ***!
@@ -21296,8 +21397,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
 /* harmony import */ var _components_header_Header__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/header/Header */ "./components/header/Header.tsx");
 /* harmony import */ var _components_greeter_Greeter__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/greeter/Greeter */ "./components/greeter/Greeter.tsx");
+/* harmony import */ var _components_certificate_list_CertificateList__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/certificate_list/CertificateList */ "./components/certificate_list/CertificateList.tsx");
 var _jsxFileName = "/Users/vedpetkar/src/github.com/vpetkar/vpetkar.github.io-src/pages/index.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0__["createElement"];
+
 
 
 
@@ -21308,35 +21411,41 @@ var Home = function Home() {
   return __jsx(_components_layout_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 9
     },
     __self: this
   }, __jsx(_components_header_Header__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 10
     },
     __self: this
   }), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Jumbotron"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
     },
     __self: this
   }, __jsx(_components_greeter_Greeter__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 12
     },
     __self: this
-  })));
+  })), __jsx(_components_certificate_list_CertificateList__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
 
 /***/ }),
 
-/***/ 1:
+/***/ 0:
 /*!**************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fvedpetkar%2Fsrc%2Fgithub.com%2Fvpetkar%2Fvpetkar.github.io-src%2Fpages%2Findex.tsx ***!
   \**************************************************************************************************************************************************************/
@@ -21359,5 +21468,5 @@ module.exports = dll_129a35c7ec57967eb265;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[0,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
