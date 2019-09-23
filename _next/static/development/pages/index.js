@@ -31,7 +31,7 @@ function CertificateList(props) {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24
+        lineNumber: 26
       },
       __self: this
     }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_0__["Card"].Img, {
@@ -39,32 +39,32 @@ function CertificateList(props) {
       src: certificate.imageUrl,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25
+        lineNumber: 27
       },
       __self: this
     }), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_0__["Card"].Body, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26
+        lineNumber: 28
       },
       __self: this
     }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_0__["Card"].Title, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 27
+        lineNumber: 29
       },
       __self: this
     }, certificate.title), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_0__["Card"].Subtitle, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28
+        lineNumber: 30
       },
       __self: this
     }, "Completed on ", certificate.completionDate.toLocaleDateString()), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_0__["Card"].Link, {
       href: certificate.pdfUrl,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 29
+        lineNumber: 31
       },
       __self: this
     }, "Download PDF")));
@@ -72,26 +72,51 @@ function CertificateList(props) {
   return __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_0__["Container"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 37
     },
     __self: this
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_0__["Row"], {
     className: "justify-content-md-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 38
     },
     __self: this
   }, __jsx("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 39
     },
     __self: this
-  }, "Sololearn Certificates"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_0__["CardColumns"], {
+  }, "Sololearn Certificates")), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_0__["Row"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 41
+    },
+    __self: this
+  }, __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "https://www.sololearn.com/Profile/15680677/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, "View profile"))), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_0__["Row"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_0__["CardColumns"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
     },
     __self: this
   }, certificateListItems), ";"));
